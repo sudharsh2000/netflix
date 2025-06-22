@@ -1,0 +1,63 @@
+.row-main{
+    margin-left: 2rem;
+}
+.row-main h4{
+    color: #bfbdbd;
+}
+.row-container{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+ 
+    /* flex-direction: row; */
+    padding: 1rem;
+    
+}
+.row-container::-webkit-scrollbar{
+    display: none;
+}
+.row-img{
+    max-width: 335px;
+    max-height: 250px;
+    margin-right: .5rem;
+    cursor: pointer;
+    transform: scale(10deg);
+}
+.row-small-img{
+    max-width: 285px;
+    max-height: 150px;
+    margin-right: .5rem;
+    cursor: pointer;
+    transform: scale(10deg);
+}
+.row-img:hover{
+    
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+.prev-btn,.next-btn{
+    align-self: center;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: white;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+    min-width: 3rem;
+    border-radius: .2rem;
+    min-height: 8rem;
+    opacity: 0;
+}
+.prev-btn
+{
+    left: 3rem;
+}
+.next-btn{
+    right: 2rem;
+}
+.row-container:hover .prev-btn,
+.row-container:hover .next-btn {
+  opacity: 1; /* Show on hover */
+}

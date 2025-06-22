@@ -1,0 +1,84 @@
+.main-movie{
+    min-width: 19rem;
+    min-height: 38rem;
+    width: 47rem;
+    position: absolute;
+    top: 17rem;
+    left: 31rem;
+   
+    border-radius: 5px;
+    z-index: 9999;}
+    .movie-image{
+        display: flex
+;
+    height: 25rem;
+    background-image: url(/public/avatar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .movie-shade{
+        background-image: linear-gradient(180deg, transparent, rgb(37, 37, 37, .32), #171515fc);    height: 100%;
+    width: 100%;
+    }
+    .movie-detail{
+        background-color: #171515fc;
+    justify-content: center;
+    justify-items: left;
+    padding: 2rem;
+    }
+    .movie-detail span{
+        color: rgb(206, 199, 199);
+        background-color: rgb(69, 66, 66);
+        margin-right: 1rem;
+        padding: .4rem;
+    }
+    .movie-detail .desc{
+        margin-top: 1rem;
+    }
+    .movie-detail .button-grp button{
+        margin-top: 1rem;
+        background-color: red;
+        min-width: 11rem;
+        min-height: 3rem;
+        color: white;
+    }
+    .close-btn{
+        background-color: rgb(238 231 221 / 12%);
+        font-size: xx-large;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        border: none;
+        color: whitesmoke;
+        cursor: pointer;
+        border-radius: 2rem;
+        outline: none;
+        width: 3rem;
+        height: 3rem;
+    }
+    .close-btn:hover{
+        cursor: pointer;
+        background-color: rgba(205, 199, 199, 0.933);
+    }
+    .movie-desc{
+        color: #d8d0d0;
+        max-width: 100%;
+        margin-top: 1rem;
+    
+    }
+    .movie-image,.movie-detail{
+        border-radius: 5px;
+    }
+    .movie-shade h1{
+        position: absolute;
+    left: 2rem;
+    bottom: 14rem;
+    background: linear-gradient(to bottom, rgb(199, 16, 16) 30%, rgb(150, 61, 61) 73%);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    background-clip: text;
+      color: transparent;
+    }

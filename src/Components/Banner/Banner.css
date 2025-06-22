@@ -1,0 +1,49 @@
+.banner{
+    /* background-image: url(./banner.jpg); */
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    display: flex
+;
+    min-height: 500px;
+ 
+}
+.content{
+    margin-top: 14rem;
+    margin-left: 2rem;
+
+}
+.title{
+    color: white;
+
+}
+.shade{
+    background-image: linear-gradient(180deg, transparent, rgb(37, 37, 37, .32), #111);
+    height: 500px;
+    width: 100%;
+
+}
+.description
+{
+    color: #d8d0d0;
+    max-width: 397px;
+}
+.button-grp{
+    margin-top: 2rem;
+}
+.button-grp button{
+    margin-right: 1rem;
+    min-width: 7rem;
+    min-height: 2.2rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.info-btn{
+    background-color: #424040;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+}
